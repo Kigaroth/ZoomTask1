@@ -8,8 +8,7 @@ int a = 20;
 int main() {
 	std::cout << "How old are you?";
 	std::cin >> age;
-	std::cout << "Your age is: " << age; 
-	std::cout << "\n";
+	std::cout << "Your age is: " << age <<std::endl;
 
 		if (age >= a) {
 			std::cout << "You are an adult.\n";
